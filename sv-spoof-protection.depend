@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1450128453 source:/home/leandro/sv-spoof-protection/ServerInfoPacket.cpp
+	"ServerInfoPacket.h"
+
+1450128442 /home/leandro/sv-spoof-protection/ServerInfoPacket.h
+	<iostream>
+	<fstream>
+	<string>
+	<crafter.h>
+
+1450128480 source:/home/leandro/sv-spoof-protection/ServerPacketSender.cpp
+	"ServerPacketSender.h"
+	<crafter.h>
+
+1450128475 /home/leandro/sv-spoof-protection/ServerPacketSender.h
+	<iostream>
+	"ServerInfoPacket.h"
+
+1450128500 source:/home/leandro/sv-spoof-protection/ServerQueryListener.cpp
+	"ServerQueryListener.h"
+	<crafter.h>
+
+1450128504 /home/leandro/sv-spoof-protection/ServerQueryListener.h
+	<iostream>
+
+1450160156 source:/home/leandro/sv-spoof-protection/main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<crafter.h>
+	<sys/time.h>
+	<unordered_map>
+	<mutex>
+	"FileUtils.h"
+	"ServerInfoPacket.h"
+	"ServerPacketSender.h"
+	"ServerQueryListener.h"
+
+1448874963 source:/home/leandro/sv-spoof-protection/FileUtils.cpp
+	"FileUtils.h"
+	<iostream>
+	<fstream>
+
+1448874742 /home/leandro/sv-spoof-protection/FileUtils.h
+	<map>
+	<vector>
+	<string>
+
